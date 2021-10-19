@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class BobMovement : MonoBehaviour
@@ -7,11 +6,10 @@ public class BobMovement : MonoBehaviour
 
     [SerializeField] private float deltaY;
     [SerializeField] private float speed;
-    [SerializeField] private int health;
 
     private Vector2 targetPos;
     private float yChange;
-    
+
     #endregion
 
     #region Unity lifecycle
